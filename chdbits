@@ -1,0 +1,81 @@
+name: 观众
+domain: https://audiences.me/
+encoding: UTF-8
+config_url: https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/audiences.yml
+config_url: https://ghproxy.com/https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/audiences.yml
+version: 20220917
+
+login:
+  test:
+    selector: a[href="logout.php"]
+category_mappings:
+  - { id: 401, cate_level1: Movie, cate_level2: 电影, cate_level2_desc: "电影" }
+  - { id: 402, cate_level1: TV, cate_level2: 剧集, cate_level2_desc: "剧集" }
+  - { id: 403, cate_level1: TV, cate_level2: 综艺, cate_level2_desc: "综艺" }
+  - { id: 408, cate_level1: Music, cate_level2: 音乐,cate_level2_ desc: "音乐" }
+  - { id: 404, cate_level1: Music, cate_level2: 有声书, cate_level2_desc: "有声书" }
+  - { id: 405, cate_level1: Other , cate_level2: 电子书, cate_level2_desc: "电子书" }
+  - { id: 407, cate_level1: TV, cate_level2: 体育, cate_level2_desc: "体育" }
+  - { id: 410, cate_level1: Game, cate_level2: 游戏, cate_level2_desc: "游戏" }
+  - { id: 411, cate_level1: Other, cate_level2: 软件, cate_level2_desc: "软件" }
+  - { id: 412, cate_level1: Other, cate_level2: 学习, cate_level2_desc: "学习" }
+  - { id: 409, cate_level1: Other, cate_level2: 其他, cate_level2_desc: "其他" }
+userinfo:
+  path: https://audiences.me/index.php
+  item:
+    selector: table[id="info_block"]
+  2  
+app/sites/beitai.yml
+@@ -2,7 +2,7 @@ id: beitai
+name: 备胎
+domain: https://www.beitai.pt/
+encoding: UTF-8
+config_url: https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/beitai.yml
+config_url: https://ghproxy.com/https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/beitai.yml
+version: 20220913
+
+login:
+  2  
+app/sites/btschool.yml
+@@ -2,7 +2,7 @@ id: btschool
+name: 学校
+domain: https://pt.btschool.club/
+encoding: UTF-8
+config_url: https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/btschool.yml
+config_url: https://ghproxy.com/https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/btschool.yml
+version: 20220913
+
+login:
+  2  
+app/sites/chdbits.yml
+@@ -2,7 +2,7 @@ id: chdbits
+name: 彩虹岛
+domain: https://chdbits.co/
+encoding: UTF-8
+config_url: https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/chdbits.yml
+config_url: https://ghproxy.com/https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/chdbits.yml
+version: 20220913
+
+login:
+  2  
+app/sites/eastgame.yml
+@@ -2,7 +2,7 @@ id: eastgame
+name: 吐鲁番
+domain: https://pt.eastgame.org/
+encoding: UTF-8
+config_url: https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/eastgame.yml
+config_url: https://ghproxy.com/https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/eastgame.yml
+version: 20220917
+
+login:
+  2  
+app/sites/exoticaz.yml
+@@ -2,7 +2,7 @@ id: exoticaz
+name: exoticaz
+domain: https://exoticaz.to/
+encoding: UTF-8
+config_url: https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/exoticaz.yml
+config_url: https://ghproxy.com/https://raw.githubusercontent.com/htnanako/movie-robot-public/main/app/sites/exoticaz.yml
+version: 20220913
+
+login:
